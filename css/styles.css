@@ -148,7 +148,6 @@ section .container .card {
 
   /* hamburger menu */
   header .container .nav-bar {
-    border: 1px solid black;
     display: flex;
   }
 
