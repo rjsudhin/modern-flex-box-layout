@@ -129,6 +129,26 @@ main .image-container #slack-icon {
   .container {
     padding: 0.6rem 1rem;
   }
+
+  /* MAIN SECTION */
+  main .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  main .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  /* MAIN SECTION */
+
 }
 /* Other Device Responsive */
 
