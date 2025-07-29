@@ -24,3 +24,60 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+/* header section */
+header {
+  background-color: var(--header-bg);
+  color: var(--white-clr);
+}
+
+
+header .container .logo {
+  font-weight: bold;
+  font-size: clamp(1.2rem, 3vw, 2rem)
+}
+
+.menu li {
+  list-style: none;
+  display: block;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: clamp(1.rem, 2vw, 1.2rem);
+}
+
+/* header section */
+
+
+/* Desktop Responsive */
+@media (min-width: 650px) {
+  /* for all container */
+  .container {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+  }
+  /* for all container */
+
+  /* HEADER SECTION */
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  header .container .menu {
+    display: flex;
+    gap: 1.5rem;
+  }
+  /* HEADER SECTION */
+
+
+}
+
+/* Desktop Responsive */
+
