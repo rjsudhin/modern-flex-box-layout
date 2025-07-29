@@ -49,6 +49,19 @@ header .container .logo {
   font-weight: bold;
   font-size: clamp(1.rem, 2vw, 1.2rem);
 }
+
+/* hamburger menu */
+#hamburger {
+  display: none; /* removed from desktop screens */
+}
+
+#hamburger span {
+  display: block;
+  width: 20px;
+  height: 5px;
+  border-bottom: 2px solid var(--white-clr);
+}
+/* hamburger menu */
 /* header section */
 
 /* main section */
@@ -132,6 +145,14 @@ section .container .card {
     display: flex;
     gap: 1.5rem;
   }
+
+  /* hamburger menu */
+  header .container .nav-bar {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  /* hamburger menu */
   /* HEADER SECTION */
 
   /* MAIN SECTION */
@@ -189,6 +210,17 @@ section .container .card {
     justify-content: space-between;
     align-items: center;
   }
+
+  /* hamburger configure */
+  header .container .nav-bar .menu {
+    display: none;
+  }
+
+  header .container .nav-bar #hamburger {
+    display: block;
+  }
+  /* hamburger configure */
+
   /* header section */
 
   /* MAIN SECTION */
