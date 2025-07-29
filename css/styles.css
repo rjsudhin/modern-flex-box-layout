@@ -224,12 +224,37 @@ section .container .card {
     top: 40px;
     width: 70%;
     right: 0;
-    height: 75vh;
+    height: 50%;
     align-items: center;
     justify-content: flex-start;
     padding: 1.5rem 0;
     background-color: var(--choice1-bg);
     border-bottom-left-radius: 1.5rem;
+    transition: all 50ms ease in;
+  }
+
+
+
+  /* x x x */
+  #hamburger span:nth-child(1),
+  #hamburger span:nth-child(2),
+  #hamburger span:nth-child(3) {
+    transition: all 50ms ease in;
+  }
+
+  header .container .nav-bar #hamburger.progress span:nth-child(1) {
+    transform: rotate(45deg) translate(5px);
+    
+    top: 34px;
+  }
+
+  header .container .nav-bar #hamburger.progress span:nth-child(2) {
+    display: none;
+  }
+
+  header .container .nav-bar #hamburger.progress span:nth-child(3) {
+    transform: rotate(-45deg) translate(2px);
+    transition: all 300ms ease-in;
   }
 
 
