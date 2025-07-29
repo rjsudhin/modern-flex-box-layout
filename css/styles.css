@@ -48,12 +48,11 @@ header .container .logo {
   font-weight: bold;
   font-size: clamp(1.rem, 2vw, 1.2rem);
 }
-
 /* header section */
 
 
 /* Desktop Responsive */
-@media (min-width: 650px) {
+@media (min-width: 750px) {
   /* for all container */
   .container {
     width: 100%;
@@ -76,8 +75,18 @@ header .container .logo {
   }
   /* HEADER SECTION */
 
-
 }
 
 /* Desktop Responsive */
+
+
+/* Other Device Responsive */
+@media (max-width: 750px) {
+  /* for all containers */
+  .container {
+    padding: 0.6rem 1rem;
+  }
+}
+/* Other Device Responsive */
+
 
