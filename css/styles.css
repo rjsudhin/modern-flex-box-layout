@@ -222,11 +222,14 @@ section .container .card {
     gap: 1rem;
     position: absolute;
     top: 40px;
-    padding: 5.5rem;
+    width: 70%;
     right: 0;
     height: 75vh;
     align-items: center;
-    background-color: var(--choice1-bg)
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+    background-color: var(--choice1-bg);
+    border-bottom-left-radius: 1.5rem;
   }
 
 
