@@ -215,6 +215,21 @@ section .container .card {
     display: none;
   }
 
+  /* clicked */
+  header .container .nav-bar .menu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 40px;
+    padding: 5.5rem;
+    right: 0;
+    height: 75vh;
+    align-items: center;
+    background-color: var(--choice1-bg)
+  }
+
+
   header .container .nav-bar #hamburger {
     display: block;
   }
