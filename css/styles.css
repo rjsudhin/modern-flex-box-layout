@@ -183,6 +183,14 @@ section .container .card {
     padding: 0.6rem 1rem;
   }
 
+  /* header section */
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* header section */
+
   /* MAIN SECTION */
   main .container {
     padding-top: 2rem;
